@@ -1,19 +1,21 @@
-<!DOCTYPE html> 
-<lang="en"> 
-  <head> 
-    <meta charset="UTF-8" /> 
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0" /> 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
-    <title>Sorting Visualizer</title> 
-    <link href="style.css" rel="stylesheet" /> 
-  </head> 
-  <body > 
-   <section class="head">Sorting Visualizer</section> 
-   <section class="data-container"></section>  
-   <button  class="btn1" onclick="generate()" id="Button1" > Generate New Array</button>    
-   <button class="btn2" onclick="SelectionSort(),disable()" id="Button2" > Selection Sort</button> 
-     <button class="btn3" onclick="bubblesort(),disable()" id="Button3">Bubble sort</button>
-  </body> 
-  <script src="index.js"></script> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soring viaualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>sorting visualizer</h1>
+  <div id="container"></div>
+  <div>
+    <button onclick="init()">Generate Random Array</button>
+    <button onclick="play()">Bubble Sort</button>
+    <button onclick="play1()">selection sort</button>
+    
+</div>
+  <script src="index.js"></script>
+  
+</body>
 </html>

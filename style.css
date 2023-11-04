@@ -1,64 +1,34 @@
-.mySlides { 
-    display: none; 
-} 
-  
-body { 
-    background-color: rgb(255, 235, 211); 
-    font-family: Verdana, sans-serif; 
-} 
-  
-.head { 
-    margin-top: 20px; 
-    margin-right: 20vw; 
-    margin-left: 20vw; 
-    text-align: center; 
-    font-size: 30px; 
-    background-color:#0893a8; 
-    color: rgb(8, 209, 78); 
-    border-radius: 19px; 
-    font-weight: bolder; 
-} 
-  
-.data-container { 
-    width: 600px; 
-    height: 384px; 
-    position: relative; 
-    margin: 0 auto; 
-} 
-  
-.bar { 
-    width: 28px; 
-    position: absolute; 
-    left: 0; 
-    bottom: 0; 
-    background-color: rgb(0, 183, 255); 
-    transition: 0.2s all ease; 
-} 
-  
-.bar__id { 
-    position: absolute; 
-    top: -24px; 
-    width: 100%; 
-    text-align: center; 
-} 
-.btn1 { 
-    padding: 12px; 
-    font-weight: bolder; 
-    background-color:rgb(187, 214, 225); 
-    border-radius: 10px; 
-    color: rgb(6, 146, 74); 
-    font-size: 16px; 
-    border: white; 
-    margin-left: 37vw; 
-    margin-top: 4vw; 
-    margin-right: 1vw; 
-} 
-.btn2 ,.btn3 { 
-    padding: 12px; 
-    font-weight: bolder; 
-    background-color: rgb(187, 214, 225); 
-    border-radius: 10px; 
-    color: rgb(6, 146, 74); 
-    font-size: 16px; 
-    border: white; 
+#container{
+    height:200px;
+    display:flex;
+    align-items:flex-end
+}
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.bar{
+   width:20px;
+   background-color:aquamarine;
+   margin: 1px;
+   
+
+}
+h1{
+    color: beige;
+    padding-bottom: 300px;
+    font-size: 3em;
+}
+button{
+        color:beige;
+        background-color: black;
+        margin-top: 30px;
+        font-size: 1em;
+        padding-top: 10px !important;
+        width: 250px !important;
+        padding-right: 40px !important;
+        
+        
 }
